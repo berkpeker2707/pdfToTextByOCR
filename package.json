@@ -1,0 +1,18 @@
+{
+  "name": "pdftotextbyocr",
+  "version": "1.0.0",
+  "description": "Converts pdf pages to single png, then reads png by using OCR tool and writes it to txt file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Berk Peker",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "node-tesseract-ocr": "^2.2.1",
+    "pdf2pic": "^2.1.4",
+    "rimraf": "^3.0.2"
+  }
+}
