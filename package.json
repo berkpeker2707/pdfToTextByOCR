@@ -12,7 +12,10 @@
   "dependencies": {
     "fs-extra": "^10.0.0",
     "node-tesseract-ocr": "^2.2.1",
+    "node-ts-ocr": "^1.0.15",
+    "pdf-extract-rs": "^1.0.0",
     "pdf2pic": "^2.1.4",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "textract": "^2.5.0"
   }
 }
